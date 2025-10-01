@@ -3,8 +3,18 @@
     display: flex; /* Usar flexbox para layout */
     justify-content: center; /* Centralizar horizontalmente */
     padding: 1.25rem 0; /* Espaçamento interno */
+    align-items: center; /* Alinha verticalmente imagem e texto */
+    gap: 1rem; /* Espaço entre imagem e texto */
 }
 
 .header img {
     height: 3rem; /* Altura da imagem */
+}
+
+.header strong {
+    font-size: 1.5rem; /* Tamanho de fonte maior */
+    color: var(--white); /* Cor harmoniosa */
+    font-weight: 700; /* Negrito */
+    letter-spacing: -0.5px; /* Ajuste de espaçamento */
+    line-height: 1; /* Alinhamento vertical */
 }
