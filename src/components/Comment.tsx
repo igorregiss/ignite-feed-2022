@@ -20,10 +20,12 @@ export function Comment() {
                             <TrashSimple size={20} />
                         </button>
 
-                        <p>Muito bom Devon, parabéns!! 👏👏</p>
 
 
                     </header>
+
+                        <p>Muito bom Devon, parabéns!! 👏👏</p>
+
                 </div>
 
                 <footer>
