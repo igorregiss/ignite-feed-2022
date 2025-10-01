@@ -13,6 +13,11 @@
   --green-500: #00875F;
 }
 
+:focus {
+  outline: transparent; /* Remover contorno padrão */
+  box-shadow: 0 0 0 2px var(--green-500); /* Adicionar sombra ao redor do elemento focado */
+}
+
 * {
   margin: 0; /* Remove espaçamento padrão */
   padding: 0; /* Remove espaçamento padrão */
