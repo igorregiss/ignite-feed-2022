@@ -116,6 +116,7 @@
 
 }
 
+
 .commentForm button[type="submit"]:hover {
     background-color: var(--green-300); /* Cor de fundo ao passar o mouse */
 }
