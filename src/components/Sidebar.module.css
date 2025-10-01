@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: var(--gray-800); /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden;
+}
+
+.cover {
+    height: 72px; /* Altura da capa */
+    width: 100%; /* Largura total */
+    object-fit: cover; /* Ajustar a imagem para cobrir o espaço */
+}
+
+.profile {
+    display: flex; /* Usar flexbox para layout */
+    flex-direction: column; /* Direção da coluna */
+    align-items: center; /* Centralizar itens horizontalmente */
+}
+
+.sidebar footer {
+    border-top: 1px solid var(--gray-600); /* Linha superior */
+    margin-top: 1.5rem; /* Espaçamento superior */
+    padding: 1.5rem 2rem 2rem; /* Espaçamento interno */
+}
+
+.sidebar footer a {
+    width: 100%; /* Largura total */
+    background-color: transparent; /* Cor de fundo */
+    color: var(--green-500); /* Cor do texto */
+    border: 1px solid var(--green-500); /* Borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    height: 50px; /* Altura do botão */
+    padding: 0 1.5rem; /* Espaçamento interno */
+    font-weight: bold; /* Negrito */
+    display: block; /* Exibir como bloco */
+    text-decoration: none; /* Remover sublinhado */
+    line-height: 50px; /* Alinhar texto verticalmente */
+    text-align: center; /* Centralizar texto */
+    justify-content: center; /* Centralizar conteúdo */
+}
