@@ -2,9 +2,20 @@
     max-width: 70rem; /* Largura máxima do contêiner */
     margin: 2rem auto; /* Centralizar horizontalmente com margem superior e inferior */
     padding: 0 1rem; /* Espaçamento interno nas laterais */
+
+
     display: grid; /* Usar grid para layout */
     grid-template-columns: 256px 1fr; /* Duas colunas: uma fixa e outra flexível */
     gap: 2rem; /* Espaçamento entre as colunas */
     align-items: flex-start; /* Alinhar itens ao topo */
     
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 87.5%; /* Ajustar o tamanho da fonte para telas menores */
+    }
+    .wrapper {
+        grid-template-columns: 1fr; /* Mudar para uma coluna em telas menores */
+    }
 }
