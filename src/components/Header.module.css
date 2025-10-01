@@ -1,5 +1,10 @@
 .header {
-    background-color: #202024;
-    height: 80px;
-    border-bottom: 1px solid #323238;
+    background-color: var(--gray-800); /* Cor de fundo */
+    display: flex; /* Usar flexbox para layout */
+    justify-content: center; /* Centralizar horizontalmente */
+    padding: 1.25rem 0; /* Espaçamento interno */
+}
+
+.header img {
+    height: 3rem; /* Altura da imagem */
 }
