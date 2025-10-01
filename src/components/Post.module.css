@@ -1,4 +1,67 @@
 .post { 
-    
+    background-color: var(--gray-800); /* Cor de fundo do post */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 2.5rem; /* Espaçamento interno */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
 
+}
+
+.post + .post {
+    margin-top: 2rem; /* Espaçamento entre posts */
+}
+
+.content {
+    margin-top: 1rem; /* Espaçamento acima do conteúdo */
+}
+
+.content p {
+    margin-top: 1rem; /* Espaçamento acima dos parágrafos */
+}
+
+.content a {
+    font-weight: bold; /* Negrito para links */
+    color: var(--green-500); /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.content a:hover {
+    color: var(--green-300); /* Cor dos links ao passar o mouse */
+}
+
+.post > header { /* Seleciona o header diretamente dentro de .post */
+    display: flex; /* Usar flexbox para layout */
+    align-items: center; /* Alinhar itens verticalmente ao centro */
+    justify-content: space-between; /* Espaçar itens igualmente */
+}
+
+.post > header time {
+    font-size: 0.875rem; /* Tamanho da fonte */
+    color: var(--gray-400); /* Cor do texto */
+}
+
+.author{
+    display: flex; /* Usar flexbox para layout */
+    align-items: center; /* Alinhar itens verticalmente ao centro */
+    gap: 1rem; /* Espaçamento entre itens */
+}
+
+.author img {
+    width: calc(3rem + 12px); /* Largura da imagem */
+    height: calc(3rem + 12px); /* Altura da imagem */
+    border-radius: 5px; /* Tornar a imagem circular */
+    border: 4px solid var(--gray-800); /* Borda ao redor da imagem */
+    outline: 2px solid var(--green-500); /* Contorno ao redor da borda */
+}
+
+.authorInfo strong {
+    display: block; /* Exibir como bloco */
+    color: var(--gray-100); /* Cor do texto */
+    font-size: 1.6rem; /* Tamanho da fonte */
+}
+
+.authorInfo span {
+    display: block; /* Exibir como bloco */
+    font-size: 0.875rem; /* Tamanho da fonte */
+    color: var(--gray-400); /* Cor do texto */
+    line-height: 1.6; /* Altura da linha */
 }
