@@ -112,7 +112,7 @@
     font-weight: bold; /* Negrito */
     cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
 
-    transistion: background-color 0.1s; /* Transição suave para mudança de cor */
+    transition: background-color 0.1s; /* Transição suave para mudança de cor */
 
 }
 
