@@ -117,7 +117,15 @@
 }
 
 
-.commentForm button[type="submit"]:hover {
+.commentForm button[type="submit"]:not(:disnabled):hover {
     background-color: var(--green-300); /* Cor de fundo ao passar o mouse */
 }
 
+.commentForm button[type="submit"]:disabled {
+    opacity: 0.7; /* Opacidade reduzida para indicar desabilitado */
+    cursor: not-allowed; /* Cursor de não permitido */
+}
+
+.commentList {
+    margin-top: 2rem; /* Espaçamento superior */
+}
