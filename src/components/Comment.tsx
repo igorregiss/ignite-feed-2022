@@ -16,9 +16,10 @@ export function Comment(props) {
 
     function handleLikeComment() {
         setLikeCount((state) => {
-            return state + 1
+            return likeCount + 1
         });
-    }
+    }  
+    
 
     return (
         <div className={styles.comment}>
