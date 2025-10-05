@@ -1,0 +1,68 @@
+.sidebar {
+    background-color: var(--gray-800); /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden;
+}
+
+.cover {
+    height: 72px; /* Altura da capa */
+    width: 100%; /* Largura total */
+    object-fit: cover; /* Ajustar a imagem para cobrir o espaço */
+}
+
+.profile {
+    display: flex; /* Usar flexbox para layout */
+    flex-direction: column; /* Direção da coluna */
+    align-items: center; /* Centralizar itens horizontalmente */
+    margin-top: calc(0px - 1.5rem - 6px); /* Ajustar a posição vertical */
+}
+
+.avatar {
+    width: calc(3rem + 12px); /* Largura da imagem */
+    height: calc(3rem + 12px); /* Altura da imagem */
+    border-radius: 5px; /* Tornar a imagem circular */
+    border: 4px solid var(--gray-800); /* Borda ao redor da imagem */
+    outline: 2px solid var(--green-500); /* Contorno ao redor da borda */
+}
+
+.profile strong {
+    margin-top: 1rem; /* Espaçamento superior */
+    color: var(--gray-100); /* Cor do texto */
+    line-height: 1.6; /* Altura da linha */
+}
+
+.profile span {
+    font-size: 0.875rem; /* Tamanho da fonte */
+    color: var(--gray-400); /* Cor do texto */
+    line-height: 1.6; /* Altura da linha */
+}
+
+.sidebar footer {
+    border-top: 1px solid var(--gray-600); /* Linha superior */
+    margin-top: 1.5rem; /* Espaçamento superior */
+    padding: 1.5rem 2rem 2rem; /* Espaçamento interno */
+}
+
+.sidebar footer a {
+    width: 100%; /* Largura total */
+    background-color: transparent; /* Cor de fundo */
+    color: var(--green-500); /* Cor do texto */
+    border: 1px solid var(--green-500); /* Borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    height: 50px; /* Altura do botão */
+    padding: 0 1.5rem; /* Espaçamento interno */
+    font-weight: bold; /* Negrito */
+    text-decoration: none; /* Remover sublinhado */
+
+    display: flex; /* Exibir como bloco */
+    align-items: center; /* Alinhar itens ao centro */
+    justify-content: center; /* Centralizar conteúdo */
+
+    gap: 0.5rem; /* Espaçamento entre ícone e texto */
+}
+
+.sidebar footer a:hover {
+    background-color: var(--green-500); /* Cor de fundo ao passar o mouse */
+    color: var(--white); /* Cor do texto ao passar o mouse */
+    transition: background-color 0.1s, color 0.1s; /* Transição suave */
+}

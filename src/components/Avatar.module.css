@@ -1,0 +1,13 @@
+.avatar {
+    width: 3rem; /* Largura da imagem */
+    height: 3rem; /* Altura da imagem */
+    border-radius: 5px; /* Tornar a imagem circular */
+}
+
+.avatarWithBorder {
+        width: calc(3rem + 12px); /* Largura da imagem */
+    height: calc(3rem + 12px); /* Altura da imagem */
+    border-radius: 5px; /* Tornar a imagem circular */
+    border: 3px solid var(--green-500); /* Borda ao redor da imagem */
+    outline: 2px solid var(--gray-800); /* Contorno ao redor da borda */
+}
